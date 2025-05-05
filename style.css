@@ -1,0 +1,85 @@
+body {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 600px;
+  background-color: rgb(249, 255, 255);
+  justify-content: center;
+}
+.cardview {
+  margin-top: 80px;
+}
+#fname {
+  width: 140px;
+}
+.border {
+  border-radius: 5px;
+  border-color: rgb(159, 20, 20);
+}
+
+.mortgage-option {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.mortgage-option label {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mortgage-option input[type="radio"] {
+  margin-right: 10px;
+  accent-color: #007bff;
+}
+
+.mortgage-option input[type="radio"]:checked + span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.custom-icon-btn::before {
+  content: "\f007"; /* Unicode for Font Awesome user icon */
+  font-family: "Font Awesome 6 Free"; /* Font Awesome */
+  font-weight: 900;
+  margin-right: 6px;
+}
+
+button.btn.btn-primary.btn-sm.custom-icon-btn {
+  width: 70%;
+}
+.btn {
+  margin-top: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.center-flex {
+  padding: 50px;
+  justify-content: center; /* Center horizontally */
+}
+
+.secpnd_row {
+  height: auto;
+  background-color: #040a0d;
+  border-radius: 0px 0px 0px 60px;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.carddiv {
+  height: auto;
+  background-color: #007bff;
+  margin: 20px;
+}
